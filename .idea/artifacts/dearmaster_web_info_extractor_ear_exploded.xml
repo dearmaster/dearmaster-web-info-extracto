@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="dearmaster-web-info-extractor:ear exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/dearmaster_web_info_extractor_ear_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="dearmaster-web-info-extractor/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>

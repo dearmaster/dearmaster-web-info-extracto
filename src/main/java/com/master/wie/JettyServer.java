@@ -8,12 +8,7 @@ import org.eclipse.jetty.server.handler.ContextHandlerCollection;
 public class JettyServer {
 	
 	private Server server;
-	private static final int DEFAULT_SERVER_PORT = 8080;
 	private static final Logger logger = LoggerFactory.getLogger();
-	
-	public JettyServer() {
-		this(DEFAULT_SERVER_PORT);
-	}
 	
 	public JettyServer(int port) {
 		server = new Server(port);
